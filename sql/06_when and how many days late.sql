@@ -1,4 +1,4 @@
--- Q5: When an order is late, how many days late is it?
+--When an order is late, how many days late is it?
 
 SELECT COUNT(*) AS late_orders,
        ROUND(AVG(1.0 * DATEDIFF(DAY, order_estimated_delivery_date, order_delivered_customer_date)), 1) AS avg_days_late,

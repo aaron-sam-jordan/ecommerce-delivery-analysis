@@ -1,4 +1,4 @@
--- Q6: How many customers ordered more than once?
+--How many customers ordered more than once?
 
 WITH per_customer AS (
     SELECT customer_unique_id,

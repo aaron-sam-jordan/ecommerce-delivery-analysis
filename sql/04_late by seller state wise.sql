@@ -1,4 +1,4 @@
--- Q3: Which seller states ship the most late orders?
+--Which seller states ship the most late orders?
 
 
 SELECT s.seller_state,

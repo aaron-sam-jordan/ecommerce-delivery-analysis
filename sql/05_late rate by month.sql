@@ -1,4 +1,4 @@
--- Q4: Does the late-delivery rate change by month?
+--Does the late-delivery rate change by month?
 
 SELECT YEAR(order_purchase_timestamp)  AS order_year,
        MONTH(order_purchase_timestamp) AS order_month,
